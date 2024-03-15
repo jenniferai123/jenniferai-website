@@ -2,7 +2,7 @@ import email from "/src/img/email.svg";
 import phone from "/src/img/phone.svg";
 const Footer = () => {
   return (
-    <footer className="bg-[#9CE2D3] rounded-tl-3xl rounded-tr-3xl p-10 flex flex-col space-y-4 px-24 test-base">
+    <footer className="bg-[#CBC3E3] rounded-tl-3xl rounded-tr-3xl p-10 flex flex-col space-y-4 px-24 test-base">
       <div>
         Feel free to reach out to me if you're looking for a developer, have a
         query, or simply want to connect.
@@ -10,12 +10,12 @@ const Footer = () => {
       <div>
         <div className="flex flex-row items-center space-x-3">
           <img src={email} />
-          <p>example@gmail.com</p>
+          <p>jla292@cornell.edu</p>
         </div>
 
         <div className="flex flex-row items-center space-x-3">
           <img src={phone} />
-          <p>123-456-7890</p>
+          <p>214-277-9317</p>
         </div>
       </div>
       <div>

@@ -1,5 +1,5 @@
 import projects from "../data/projects.json";
-import link from "/src/img/link.svg";
+import link_img from "/src/img/link.svg";
 
 const Project = () => {
   return (
@@ -13,7 +13,7 @@ const Project = () => {
             <img
               src={data.logo}
               alt="project logo"
-              className="h-64 sm:h-auto"
+              className="h-64 sm:h-auto w-[50%]"
             />
             <div className="flex flex-col items-start space-y-3">
               <div className="font-semibold text-xl">{data.name}</div>
@@ -29,8 +29,8 @@ const Project = () => {
                 ))}
               </div>
 
-              <a href="">
-                <img src={link} className="h-10" />
+              <a href={data.link}>
+                <img src={link_img} className="h-10" />
               </a>
             </div>
           </div>

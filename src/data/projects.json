@@ -1,17 +1,15 @@
 [
   {
-    "name": "Project Name",
-    "logo": "/img/projectimg.png",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
-    "link": "",
+    "name": "Happiness App",
+    "logo": "/img/happinessapp.png",
+    "description": "Social journalling web app aimed to destimatize mental wellness and deepen connections.",
+    "link": "https://www.happinessapp.me/",
     "tools": [
-      "React",
-      "Figma",
-      "Git"
+      "Figma"
     ]
   },
   {
-    "name": "Project Name",
+    "name": "Intelligent Travel Agent",
     "logo": "/img/projectimg.png",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
     "link": "",
